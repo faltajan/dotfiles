@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [[ $(which zsh) ]];
+if [ $(which zsh) ];
 then
   echo "Setting ZSH as default shell"
   chsh -s $(which zsh)
